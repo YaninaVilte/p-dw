@@ -1,280 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style.css" />
     <!-- Favicon -->
-    <link rel="icon" href="../assets/logocpdeg.png">
+    <link rel="icon" href="../assets/logocpdeg.png" />
     <title>Contacto</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">
-                    <img src="../assets/logocpdeg.png" width="70" height="70" class="d-inline-block align-top"
-                        alt="Logo del Colegio Pcial. Dr. Ernesto Guevara">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/institucional.html">Institucional</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/academico.html">Académico</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/alumnos.html">Alumnos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/docentes.html">Docentes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="../assets/logocpdeg.png"
+              width="70"
+              height="70"
+              class="d-inline-block align-top"
+              alt="Logo del Colegio Pcial. Dr. Ernesto Guevara"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/institucional.html"
+                  >Institucional</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/academico.html">Académico</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/alumnos.html">Alumnos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/docentes.html">Docentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
+      <section class="principalPages">
+        <div class="frenteColegioPages">
+          <img
+            src="../assets/frenterecortadoblur.png"
+            alt="Frente del Colegio Provincial Dr. Ernesto Guevara"
+          />
+        </div>
+        <div class="tituloPages">
+          <h1>Contacto</h1>
+        </div>
+      </section>
 
-        <section class="principalPages">
-            <div class="frenteColegioPages">
-                <img src="../assets/frenterecortadoblur.png" alt="Frente del Colegio Provincial Dr. Ernesto Guevara">
+      <section class="cardContainer">
+        <!-- =================== Formulario de contacto =================== -->
+        <section class="cardFormMap">
+          <form class="formularioContacto">
+            <div class="row">
+              <div>
+                <h3>Formulario de contacto</h3>
+              </div>
+              <div class="col-6">
+                <label for="validationCustom01">Nombre</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom01"
+                  placeholder="Nombre"
+                  required
+                />
+              </div>
+              <div class="col-6">
+                <label for="validationCustom01">Apellido</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom01"
+                  placeholder="Apellido"
+                  required
+                />
+              </div>
+              <div class="col-6">
+                <label for="inputEmail4">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="inputEmail4"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="col-6">
+                <label class="check" for="tel">Teléfono</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="validationCustom01"
+                  placeholder="Teléfono"
+                  value="Teléfono"
+                  required
+                />
+              </div>
+              <div>
+                <label for="exampleFormControlTextarea1"
+                  >Dejanos tu mensaje</label
+                >
+              </div>
+              <div class="input-group mb-6">
+                <div class="input-group-prepend">
+                  <label class="input-group-text" for="inputGroupSelect01"
+                    >Asunto</label
+                  >
+                </div>
+                <select class="custom-select" id="inputGroupSelect01">
+                  <option selected>Seleccione un asunto</option>
+                  <option value="CE">Certificados escolares</option>
+                  <option value="P">Pases</option>
+                  <option value="CM">Cambio de modalidad</option>
+                  <option value="REG">Reunión con Equipo de Gestión</option>
+                  <option value="D">Docentes</option>
+                  <option value="O">Otro</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Mensaje:</label>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div>
+                <legend class="col-form-label col-sm-6 pt-0">
+                  ¿Por qué medio desea ser contactado?
+                </legend>
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="gridRadios"
+                      id="gridRadios1"
+                      value="option1"
+                      checked
+                    />
+                    <label class="form-check-label" for="gridRadios1">
+                      Teléfono
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="gridRadios"
+                      id="gridRadios2"
+                      value="option2"
+                    />
+                    <label class="form-check-label" for="gridRadios2">
+                      Email
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <button
+                  type="submit"
+                  value="Enviar consulta"
+                  class="btn btn-primary btn-sm"
+                >
+                  Enviar consulta
+                </button>
+                <button
+                  type="reset"
+                  value="Limpiar"
+                  class="btn btn-secondary btn-sm"
+                >
+                  Limpiar campos
+                </button>
+              </div>
             </div>
-            <a href="../index.html">
-                <button class="linkInicio">Inicio</button>
-            </a>
-            <div class="tituloPages">
-                <h1>Contacto</h1>
-            </div>
+          </form>
         </section>
 
-        <section class="cardContainer">
-                <!-- =================== Formulario de contacto =================== -->
-                <section class="cardFormMap">
-                <form class="formularioContacto">
-                    <div class="row">
-                        <div>
-                            <h3>Formulario de contacto</h3>
-                        </div>
-                        <div class="col-6">
-                            <label for="validationCustom01">Nombre</label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" required>
-                        </div>
-                        <div class="col-6">
-                            <label for="validationCustom01">Apellido</label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="Apellido" required>
-                        </div>
-                        <div class="col-6">
-                            <label for="inputEmail4">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                        </div>
-                        <div class="col-6">
-                            <label class="check" for="tel">Teléfono</label>
-                            <input type="number" class="form-control" id="validationCustom01" placeholder="Teléfono"
-                                value="Teléfono" required>
-                        </div>
-                        <div>
-                                <label for="exampleFormControlTextarea1">Dejanos tu mensaje</label>
-                        </div>
-                        <div class="input-group mb-6">
-                            <div class="input-group-prepend">
-                                <label class="input-group-text" for="inputGroupSelect01">Asunto</label>
-                            </div>
-                            <select class="custom-select" id="inputGroupSelect01">
-                                <option selected>Seleccione un asunto</option>
-                                <option value="CE">Certificados escolares</option>
-                                <option value="P">Pases</option>
-                                <option value="CM">Cambio de modalidad</option>
-                                <option value="REG">Reunión con Equipo de Gestión</option>
-                                <option value="D">Docentes</option>
-                                <option value="O">Otro</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Mensaje:</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                        <div>
-                            <legend class="col-form-label col-sm-6 pt-0">¿Por qué medio desea ser contactado?</legend>
-                            <div class="col-sm-10">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
-                                    value="option1" checked>
-                                    <label class="form-check-label" for="gridRadios1">
-                                        Teléfono
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
-                                        value="option2">
-                                    <label class="form-check-label" for="gridRadios2">
-                                        Email
-                                    </label>
-                                </div>    
-                            </div>
-                        </div>
-                        <div>
-                            <button type="submit" value="Enviar consulta" class="btn btn-primary btn-sm">Enviar
-                                consulta</button>
-                            <button type="reset" value="Limpiar" class="btn btn-secondary btn-sm">Limpiar campos</button>
-                        </div>
-                    </div>
-                </form>
-            </section>
-
-            <div class="cardFormMap">
-                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2356.3173590375645!2d-67.75665872332104!3d-53.801636372424895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4b166400858a59%3A0xc2dc84ca26547d6a!2sColegio%20Provincial%20Dr.%20Ernesto%20Guevara!5e0!3m2!1ses-419!2sar!4v1684154905249!5m2!1ses-419!2sar" width="620" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-
-        </section>
-
-
+        <div class="cardFormMap">
+          <iframe
+            class="mapa"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2356.3173590375645!2d-67.75665872332104!3d-53.801636372424895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4b166400858a59%3A0xc2dc84ca26547d6a!2sColegio%20Provincial%20Dr.%20Ernesto%20Guevara!5e0!3m2!1ses-419!2sar!4v1684154905249!5m2!1ses-419!2sar"
+            width="620"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
     </main>
 
-
     <footer>
-        <!-- Footer -->
-        <footer class="text-center text-lg-start bg-light text-muted">
-            <!-- Section: Social media -->
-            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-                <!-- Left -->
-                <div class="me-5 d-none d-lg-block">
-                    <span>Encontranos en nuestras redes sociales:</span>
-                </div>
-                <!-- Left -->
+      <!-- Footer -->
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Encontranos en nuestras redes sociales:</span>
+          </div>
+          <!-- Left -->
 
-                <!-- Right -->
-                <div>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-google"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </div>
-                <!-- Right -->
-            </section>
-            <!-- Section: Social media -->
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
 
-            <!-- Section: Links  -->
-            <section class="">
-                <div class="container text-center text-md-start mt-5">
-                    <!-- Grid row -->
-                    <div class="row mt-3">
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                            <!-- Content -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                <i class="fas fa-gem me-3"></i>CPDEG
-                            </h6>
-                            <p>
-                                Here you can use rows and columns to organize your footer content. Lorem ipsum
-                                dolor sit amet, consectetur adipisicing elit.
-                            </p>
-                        </div>
-                        <!-- Grid column -->
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>CPDEG
+                </h6>
+                <p>
+                  Here you can use rows and columns to organize your footer
+                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.
+                </p>
+              </div>
+              <!-- Grid column -->
 
-                        <!-- Grid column -->
-                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Accesos rápidos
-                            </h6>
-                            <p>
-                                <a href="#!" class="text-reset">Docentes</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">Alumnos</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">Modalidades</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">Sobre la Institución</a>
-                            </p>
-                        </div>
-                        <!-- Grid column -->
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Accesos rápidos</h6>
+                <p>
+                  <a href="#!" class="text-reset">Docentes</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Alumnos</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Modalidades</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Sobre la Institución</a>
+                </p>
+              </div>
+              <!-- Grid column -->
 
-                        <!-- Grid column -->
-                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">
-                                Servicios
-                            </h6>
-                            <p>
-                                <a href="#!" class="text-reset">Pricing</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">Settings</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">Orders</a>
-                            </p>
-                            <p>
-                                <a href="#!" class="text-reset">Help</a>
-                            </p>
-                        </div>
-                        <!-- Grid column -->
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Servicios</h6>
+                <p>
+                  <a href="#!" class="text-reset">Pricing</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
 
-                        <!-- Grid column -->
-                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                            <!-- Links -->
-                            <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
-                            <p><i class="fas fa-home me-3"></i> Juan Felix Russo N° 3461</p>
-                            <p>
-                                <i class="fas fa-envelope me-3"></i>
-                                cpdeguevara@tdf.edu.ar
-                            </p>
-                            <p><i class="fas fa-phone me-3"></i> 2964300532</p>
-                        </div>
-                        <!-- Grid column -->
-                    </div>
-                    <!-- Grid row -->
-                </div>
-            </section>
-            <!-- Section: Links  -->
-
-            <!-- Copyright -->
-            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-                © 2023 Copyright:
-                <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Yanina G. Vilte</a>
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                <p><i class="fas fa-home me-3"></i> Juan Felix Russo N° 3461</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  cpdeguevara@tdf.edu.ar
+                </p>
+                <p><i class="fas fa-phone me-3"></i> 2964300532</p>
+              </div>
+              <!-- Grid column -->
             </div>
-            <!-- Copyright -->
-        </footer>
-        <!-- Footer -->
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-4"
+          style="background-color: rgba(0, 0, 0, 0.05)"
+        >
+          © 2023 Copyright:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
+            >Yanina G. Vilte</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
