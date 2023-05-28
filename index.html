@@ -1,310 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inicio</title>
-    <!-- Favicon -->
-    <link rel="icon" href="./assets/logocpdeg.png" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
+
+    <title>CPDEG | Inicio</title>
+
+    <link rel="icon" type="image/x-icon" href="./assets/logocpdeg.png" />
+    <meta name="description" content="Página del Col. Pcial. Dr. Ernesto Guevara, ubicado en Río Grande - Provincia de Tierra del Fuego">
+    <meta name="keywords" content="Guevara, Colegio, Modalidad Técnica, Modalidad Bachiller, Inclusión, Río Grande, Tierra del Fuego">
+    <meta name="author" content="Yanina Gabriela Vilte"/>
+    <meta name="copyright" content="Yanina Gabriela Vilte"/>
+
+    <meta property="og:title" content="Colegio Pcial. Dr. Ernesto Guevara"/>
+    <meta property="og:description" content="Esta es la página principal del CPDEG, acá vas a encontrar las novedades actualizadas de nuestro colegio."/>
+    <meta property="og:image" content="./assets/frenterecortado.png"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="es_ES"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css" />
-  </head>
+    <link rel="stylesheet" href="./style.css" />    
+</head>
 
-  <body>
+<body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">
-            <img
-              src="./assets/logocpdeg.png"
-              width="70"
-              height="70"
-              class="d-inline-block align-top"
-              alt="Logo del Colegio Pcial. Dr Ernesto Guevara"
-            />
-          </a>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                <img src="./assets/logocpdeg.png" width="70" height="70" class="d-inline-block align-top" alt="Logo del Colegio Pcial. Dr Ernesto Guevara"/>
+                </a>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/institucional.html"
-                  >Institucional</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/academico.html">Académico</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/alumnos.html">Alumnos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/docentes.html">Docentes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/institucional.html">Institucional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/academico.html">Académico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/alumnos.html">Alumnos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/docentes.html">Docentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
-      <div class="frenteColegioPages">
-        <img
-          src="./assets/frenterecortado.png"
-          alt="Frente del Colegio Provincial Dr. Ernesto Guevara"
-        />
-      </div>
-
-      <section class="titulo">
-        <div>
-          <h1>Colegio Provincial Dr. Ernesto Guevara</h1>
-        </div>
-      </section>
-
-      <section class="titulo">
-        <div>
-          <h2>Novedades</h2>
-        </div>
-      </section>
-
-      <section class="cardContenedorNoticias">
-        <div class="card">
-          <img src="./assets/ampliacion.jpg" alt="Cuadrado gris, tamaño 180" />
-          <h3>Ampliación del Colegio</h3>
-          <p>
-            Se realizó la apertura de sobres para licitación de la tan anhelada
-            ampliación de nuestro Colegio que sigue creciendo año tras año. La
-            obra durará aproximadamente 365 días y la misma consta de la
-            construcción del gimnasio más buffet, 2 amplios laboratorios
-            informáticos y 4 aulas. Seguimos creciendo para llegar a más
-            jóvenes.
-          </p>
-          <button>+ Info</button>
+        <div class="frenteColegioPages">
+            <img src="./assets/frenterecortado.png" alt="Frente del Colegio Provincial Dr. Ernesto Guevara"/>
         </div>
 
-        <div class="card">
-          <img src="./assets/aniversario.jpg" alt="Cuadrado gris, tamaño 180" />
-          <h3>Aniversario Guevariano</h3>
-          <p>
-            Un nuevo 20 de Marzo nos encuentra para celebrar el 18° Aniversario
-            del Colegio Guevara, un proyecto de colegio que ha ido creciendo tal
-            como sus docentes fundadores lo han pensado y más. Hoy es el 6°
-            Aniversario celebrado en nuestro nuevo edificio junto a nuestra
-            matrícula de más de 800 alumnos.
-          </p>
-          <button>+ Info</button>
-        </div>
+        <section class="titulo">
+            <div>
+                <h1>Colegio Provincial Dr. Ernesto Guevara</h1>
+            </div>
+        </section>
 
-        <div class="card">
-          <img src="./assets/acto.jpg" alt="Cuadrado gris, tamaño 180" />
-          <h3>Acto conmemorativo del 25</h3>
-          <p>
-            Hermosa jornada festiva en homenaje por el 25 de mayo de 1810 junto
-            a nuestros alumnos con amplia participación. Con interpretaciones de
-            distintas canciones folclóricas por parte de los alumnos junto a los
-            docentes. Además recibimos al grupo “Raíces Andinas” que nos
-            maravillaron con su danza. Agradecimientos a todos por su
-            participación y el compartir de esta jornada tan especial.
-          </p>
-          <button>+ Info</button>
-        </div>
+        <section class="titulo">
+            <div>
+                <h2>Novedades</h2>
+            </div>
+        </section>
 
-        <div class="card">
-          <img src="./assets/practicas.jpg" alt="Cuadrado gris, tamaño 180" />
-          <h3>Prácticas para los futuros Técnicos 2023</h3>
-          <p>
-            Agradecemos a las distintas áreas de la Subsecretaria de Innovación
-            Pública del Municipio de Rio Grande, que recibirá a los alumnos del
-            7° Año de la modalidad Técnico en Informática para realizar sus
-            pasantías de Prácticas Profesionalizantes. Es una gran oportunidad
-            para nuestros futuros técnicos durante los siguientes meses y
-            sumarles además un acercamiento al mundo laboral.
-          </p>
-          <button>+ Info</button>
-        </div>
+        <section class="cardContenedorNoticias">
+            <div class="card">
+                <img src="./assets/ampliacion.jpg" alt="Ministra de Educación junto con alumnos abriendo pliegos" />
+                <h3>Ampliación del Colegio</h3>
+                <p>Se realizó la apertura de sobres para licitación de la tan anhelada ampliación de nuestro Colegio que sigue creciendo año tras año. La obra durará aproximadamente 365 días y la misma consta de la construcción del gimnasio más buffet, 2 amplios laboratorios informáticos y 4 aulas. Seguimos creciendo para llegar a más               jóvenes.</p>
+                <button>+ Info</button>
+            </div>
 
-        <div class="card">
-          <img src="./assets/promesa.jpg" alt="Cuadrado gris, tamaño 180" />
-          <h3>Promesa a la Constitución Nacional</h3>
-          <p>
-            Realizamos el acto de promesa a la Constitución Nacional por parte
-            de los alumnos pertenecientes al 3° Año. Agradecemos a todos los
-            participantes y en especial a las familias que se han hecho
-            presentes para acompañar a sus hijos en este momento. "Porque Hoy
-            Somos Parte Del Futuro, Prometemos Defender Los Ideales De Libertad,
-            Igualdad Y Justicia Levantando La Bandera De La Democracia Por
-            Siempre".
-          </p>
-          <button>+ Info</button>
-        </div>
+            <div class="card">
+                <img src="./assets/aniversario.jpg" alt="Frente del CPDEG con frase de feliz cumpleaños, incluye dibujos de globos y serpentinas" />
+                <h3>Aniversario Guevariano</h3>
+                <p>Un nuevo 20 de Marzo nos encuentra para celebrar el 18° Aniversario del Colegio Guevara, un proyecto de colegio que ha ido creciendo tal como sus docentes fundadores lo han pensado y más. Hoy es el 6°                  Aniversario celebrado en nuestro nuevo edificio junto a nuestra matrícula de más de 800 alumnos.</p>
+                <button>+ Info</button>
+            </div>
 
-        <div class="card">
-          <img
-            src="./assets/equiposInformáticos.jpg"
-            alt="Cuadrado gris, tamaño 180"
-          />
-          <h3>Sumamos equipos informáticos para los alumnos</h3>
-          <p>
-            El mes de Abril, junto al Municipio de la ciudad, nos ha entregado
-            notebooks y Tablets a nuestro Colegio, en reconocimiento por el
-            trabajo de mejorar la calidad educativa de nuestros alumnos. Estos
-            nuevos equipamientos que se suman serán de gran utilidad y
-            ampliamente aprovechados por la comunidad educativa para seguir
-            ofreciendo la educación que nuestros alumnos se merecen.
-          </p>
-          <button>+ Info</button>
-        </div>
-      </section>
+            <div class="card">
+                <img src="./assets/acto.jpg" alt="Cuatro alumnas del CPDEG, con vestimenta de paisanas, típica de la epoca." />
+                <h3>Acto conmemorativo del 25</h3>
+                <p>Hermosa jornada festiva en homenaje por el 25 de mayo de 1810 junto a nuestros alumnos con amplia participación. Con interpretaciones de distintas canciones folclóricas por parte de los alumnos junto a los   docentes. Además recibimos al grupo “Raíces Andinas” que nos maravillaron con su danza. Agradecimientos a todos por su participación y el compartir de esta jornada tan especial.</p>
+                <button>+ Info</button>
+            </div>
+
+            <div class="card">
+                <img src="./assets/practicas.jpg" alt="Profesores y alumnos posando en el Centro Tecnológico del Municipio de RG" />
+                <h3>Prácticas para los futuros Técnicos 2023</h3>
+                <p>Agradecemos a las distintas áreas de la Subsecretaria de Innovación Pública del Municipio de Rio Grande, que recibirá a los alumnos del 7° Año de la modalidad Técnico en Informática para realizar sus pasantías de Prácticas Profesionalizantes. Es una gran oportunidad para nuestros futuros técnicos durante los siguientes meses y    sumarles además un acercamiento al mundo laboral.</p>
+                <button>+ Info</button>
+            </div>
+
+            <div class="card">
+                <img src="./assets/promesa.jpg" alt="Alumnos de los 3° Años formados, al frente los directivos de la Institución acompañando a abanderados de la Bandera Nacional y la Bandera Provincial"/>
+                <h3>Promesa a la Constitución Nacional</h3>
+                <p>Realizamos el acto de promesa a la Constitución Nacional por parte de los alumnos pertenecientes al 3° Año. Agradecemos a todos los participantes y en especial a las familias que se han hecho presentes para acompañar a sus hijos en este momento. "Porque Hoy Somos Parte Del Futuro, Prometemos Defender Los Ideales De Libertad,     Igualdad Y Justicia Levantando La Bandera De La Democracia Por Siempre".</p>
+                <button>+ Info</button>
+            </div>
+
+            <div class="card">
+                <img src="./assets/equiposInformáticos.jpg" alt="Director del CPDEG junto a autoridades del Municipio de RG posando con cajas de netbooks y tablets donadas al colegio"/>
+                <h3>Sumamos equipos informáticos para los alumnos</h3>
+                <p>El mes de Abril, junto al Municipio de la ciudad, nos ha entregado notebooks y Tablets a nuestro Colegio, en reconocimiento por el trabajo de mejorar la calidad educativa de nuestros alumnos. Estos nuevos equipamientos que se suman serán de gran utilidad y ampliamente aprovechados por la comunidad educativa para seguir ofreciendo la educación que nuestros alumnos se merecen.</p>
+                <button>+ Info</button>
+            </div>
+        </section>
     </main>
 
     <footer>
-      <!-- Footer -->
+        <footer class="text-center text-lg-start bg-light text-muted">
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <div class="me-5 d-none d-lg-block">
+                    <span>Encontranos en nuestras redes sociales:</span>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/colegioguevara" class="me-4 text-reset">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.youtube.com/c/ColegioProvincialDrErnestoGuevara" class="me-4 text-reset">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://sites.google.com/view/colegioguevara" class="me-4 text-reset">
+                        <i class="fab fa-google"></i>
+                    </a>
+                </div>
+            </section>
 
-      <footer class="text-center text-lg-start bg-light text-muted">
-        <!-- Section: Social media -->
-        <section
-          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-        >
-          <!-- Left -->
-          <div class="me-5 d-none d-lg-block">
-            <span>Encontranos en nuestras redes sociales:</span>
-          </div>
-          <!-- Left -->
+            <footer class="text-center text-lg-start bg-light text-muted">
+                <section class="footer_boot">
+                    <div class="container text-center text-md-start mt-5">
+                        <div class="row mt-3">
+                            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                                <h6 class="text-uppercase fw-bold mb-4"><i class="far fa-pen-to-square"></i> CPDEG</h6>
+                                <p>Somos un colegio que trabaja día a día para brindar calidad al alumno, acompañando la trayectoria hasta su egreso procurando hacer de esta, la mejor etapa de su vida.</p>
+                            </div>
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <h6 class="text-uppercase fw-bold mb-4">Accesos rápidos</h6>
+                                <p><a href="./pages/docentes.html" class="text-reset">Docentes</a></p>
+                                <p><a href="./pages/alumnos.html" class="text-reset">Alumnos</a></p>
+                                <p><a href="./pages/academico.html" class="text-reset">Modalidades</a></p>
+                                <p><a href="./pages/institucional.html" class="text-reset">Sobre la Institución</a></p>
+                            </div>
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                                <h6 class="text-uppercase fw-bold mb-4">Servicios</h6>
+                                <p><a href="https://turecibo.tdf.gob.ar/" class="text-reset">Recibo de sueldo</a></p>
+                                <p><a href=" https://drive.google.com/drive/u/1/folders/1tuTN7sCJ9g0byrF8jPsotmwM2Il2GdGl" class="text-reset">Capacitaciones</a></p>
+                                <p><a href="https://www.argentina.gob.ar/educacion/becas" class="text-reset">Becas</a></p>
+                                <p><a href="https://nueva.riogrande.gob.ar/salud/" class="text-reset">Salud integral</a></p>
+                            </div>
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                                <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                                <p><i class="fas fa-home me-3"></i> Juan Felix Russo N° 3461</p>
+                                <p><i class="fas fa-envelope me-3"></i> cpdeguevara@tdf.edu.ar</p>
+                                <p><i class="fas fa-phone me-3"></i> 2964300532</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-          <!-- Right -->
-          <div>
-            <a href="https://www.facebook.com/colegioguevara" class="me-4 text-reset">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://www.youtube.com/c/ColegioProvincialDrErnestoGuevara" class="me-4 text-reset">
-              <i class="fab fa-youtube"></i>
-            </a>
-            <a href="https://sites.google.com/view/colegioguevara" class="me-4 text-reset">
-              <i class="fab fa-google"></i>
-            </a>
-          </div>
-          
-          <!-- Right -->
-        </section>
-        <!-- Section: Social media -->
-
-        <!-- Section: Links  -->
-
-      <footer class="text-center text-lg-start bg-light text-muted">
-        <!-- Section: Links  -->
-        <section class="footer_boot">
-          <div class="container text-center text-md-start mt-5">
-            <!-- Grid row -->
-            <div class="row mt-3">
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <!-- Content -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                  <i class="far fa-pen-to-square"></i> CPDEG
-                </h6>
-                <p>Somos un colegio que trabaja día a día para brindar calidad al alumno, acompañando la trayectoria hasta su egreso procurando hacer de esta, la mejor etapa de su vida.</p>
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">Accesos rápidos</h6>
-                <p>
-                  <a href="./pages/docentes.html" class="text-reset">Docentes</a>
-                </p>
-                <p>
-                  <a href="./pages/alumnos.html" class="text-reset">Alumnos</a>
-                </p>
-                <p>
-                  <a href="./pages/academico.html" class="text-reset">Modalidades</a>
-                </p>
-                <p>
-                  <a href="./pages/institucional.html" class="text-reset">Sobre la Institución</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">Servicios</h6>
-                <p>
-                  <a href="https://turecibo.tdf.gob.ar/" class="text-reset">Recibo de sueldo</a>
-                </p>
-                <p>
-                  <a href=" https://drive.google.com/drive/u/1/folders/1tuTN7sCJ9g0byrF8jPsotmwM2Il2GdGl" class="text-reset">Capacitaciones</a>
-                </p>
-                <p>
-                  <a href="https://www.argentina.gob.ar/educacion/becas" class="text-reset">Becas</a>
-                </p>
-                <p>
-                  <a href="https://nueva.riogrande.gob.ar/salud/" class="text-reset">Salud integral</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
-                <p><i class="fas fa-home me-3"></i> Juan Felix Russo N° 3461</p>
-                <p>
-                  <i class="fas fa-envelope me-3"></i>
-                  cpdeguevara@tdf.edu.ar
-                </p>
-                <p><i class="fas fa-phone me-3"></i> 2964300532</p>
-              </div>
-              <!-- Grid column -->
-            </div>
-            <!-- Grid row -->
-          </div>
-        </section>
-        <!-- Section: Links  -->
-
-        <!-- Copyright -->
-        <div
-          class="text-center p-4"
-          style="background-color: rgba(0, 0, 0, 0.05)"
-        >
-          © 2023 Copyright:
-          <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
-            >Yanina G. Vilte</a
-          >
-        </div>
-        <!-- Copyright -->
-      </footer>
-      <!-- Footer -->
+                <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+                    © 2023 Copyright:
+                    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Yanina G. Vilte</a>
+                </div>
+            </footer>
+        </footer>
     </footer>
 
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.1/mdb.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
 </html>
