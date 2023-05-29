@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* === Cuerpo General */
+/* === Estilos generales */
 * {
   margin: 0;
   padding: 0;
@@ -36,11 +36,11 @@ h3 {
   font-size: 2rem;
 }
 
-/* === Navbar */
 main {
   padding-top: 8rem;
 }
 
+/* === Variables */
 /* === Index */
 .cardContainer,
 .cardContenedorNoticias {
@@ -149,54 +149,6 @@ button:hover {
           transform: translate(-50%, -50%);
 }
 
-/* ==== Contacto */
-.cardFormMap {
-  width: 45%;
-  padding: 1rem 1rem;
-  margin: 1rem;
-  background-color: rgb(220, 181, 181);
-  border-radius: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-/* ==== Institucional */
-.institucionalDer,
-.institucionalIzq {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 80%;
-}
-
-.institucionalDer div,
-.institucionalIzq div {
-  width: 60%;
-  margin: auto;
-  text-align: left;
-}
-
-.institucionalIzq {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
-}
-
-.institucionalDer img,
-.institucionalIzq img {
-  width: 350px;
-  height: 250px;
-}
-
-/* ==== EstructuraComunPAginas */
 .principalPages button {
   font-size: 0.8rem;
   font-weight: bold;
@@ -224,6 +176,62 @@ button:hover {
   left: 90%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+/* ==== Contacto */
+.cardFormMap {
+  width: 45%;
+  padding: 1rem 1rem;
+  margin: 1rem;
+  background-color: rgb(220, 181, 181);
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mapa {
+  width: 100%;
+}
+
+/* ==== Institucional */
+.institucionalDer,
+.institucionalIzq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+}
+
+.institucionalDer,
+.institucionalIzq {
+  margin: 8px 25px 8px 25px;
+}
+
+.institucionalDer div,
+.institucionalIzq div {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+}
+
+.institucionalIzq {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.institucionalDer img,
+.institucionalIzq img {
+  width: 350px;
+  height: 250px;
 }
 
 /* ==== Alumnos y Docentes */
@@ -293,6 +301,11 @@ button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.cardTexto {
+  width: 100%;
+  word-wrap: break-word;
 }
 
 .cardTexto h3 {
@@ -431,6 +444,23 @@ body,
   margin: 0rem 2rem 4rem 3rem;
 }
 
+.testimonios,
+.testimoniosBach {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.testimonios img,
+.testimoniosBach img {
+  width: 100%;
+}
+
+/* ==== Responsive ==== */
 /* 
 ==========================================               ========================================== 
 ========================================== MEDIA QUERIES ========================================== 
@@ -470,9 +500,6 @@ body,
     margin-bottom: 1rem;
     padding-top: 1rem;
   }
-  .cardContainer p {
-    display: none;
-  }
   h1 {
     font-size: 2rem;
   }
@@ -498,20 +525,35 @@ body,
   .cardInformacion {
     width: 45%;
   }
-  .cardAcademico {
-    width: 30%;
+  .cardInformacion {
+    width: 40%;
+    margin: 0.5rem;
   }
-  .cardAcademico h2 {
-    font-size: 1rem;
+  .cardFormMap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
   }
-  .cardAcademico ul {
-    font-size: 1rem;
+}
+/* 
+==========================================               ========================================== 
+========================================== MEDIA QUERIES ========================================== 
+==========================================               ========================================== 
+*/
+@media screen and (max-width: 960px) {
+  .card {
+    width: 45%;
   }
-  .cardAcademicoTec {
-    width: 24%;
+  h1 {
+    font-size: 2.5rem;
   }
-  .cardAcademicoTec h2 {
-    font-size: 1rem;
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.75rem;
   }
   .cardAcademicoTec ul {
     font-size: 0.9rem;
@@ -616,19 +658,160 @@ body,
             justify-content: center;
     font-size: 1rem;
   }
-  .cardInformacion {
+  .testimonios img {
+    width: 45%;
+  }
+  .testimoniosBach img {
+    width: 60%;
+  }
+}
+/* 
+==========================================               ========================================== 
+========================================== MEDIA QUERIES ========================================== 
+==========================================               ========================================== 
+*/
+@media screen and (max-width: 640px) {
+  .card {
     width: 40%;
-    margin: 0.5rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  .card img {
+    display: none;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .testimonios img {
+    width: 70%;
   }
   .cardFormMap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 80%;
+  }
+}
+/* 
+==========================================               ========================================== 
+========================================== MEDIA QUERIES ========================================== 
+==========================================               ========================================== 
+*/
+@media screen and (max-width: 757px) {
+  .testimoniosBach img {
+    width: 50%;
+  }
+}
+/* 
+==========================================               ========================================== 
+========================================== MEDIA QUERIES ========================================== 
+==========================================               ========================================== 
+*/
+@media screen and (max-width: 756px) {
+  .testimoniosBach img {
+    display: none;
+  }
+  .textoImagen {
+    font-size: 1.25rem;
+    width: 80%;
+  }
+}
+/* 
+==========================================               ========================================== 
+========================================== MEDIA QUERIES ========================================== 
+==========================================               ========================================== 
+*/
+@media screen and (max-width: 508px) {
+  .titulo {
+    text-align: center;
+  }
+  .card {
+    width: 80%;
+  }
+}
+/* 
+==========================================               ========================================== 
+========================================== MEDIA QUERIES ========================================== 
+==========================================               ========================================== 
+*/
+@media screen and (max-width: 425px) {
+  .titulo {
+    text-align: center;
+  }
+  .card {
+    width: 80%;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+/* 
+==========================================               ========================================== 
+========================================== MEDIA QUERIES ========================================== 
+==========================================               ========================================== 
+*/
+@media screen and (max-width: 1064px) {
+  .cardInformacion {
+    width: 20%;
+    margin: 0.5rem;
+  }
+  .textoImagen {
+    top: 75%;
+  }
+}
+/* 
+==========================================               ========================================== 
+========================================== MEDIA QUERIES ========================================== 
+==========================================               ========================================== 
+*/
+@media screen and (max-width: 960px) {
+  .cardInformacion {
+    width: 20%;
+    margin: 0.5rem;
+  }
+  .textoImagen {
+    top: 75%;
+  }
+  .cardAlumnos {
+    width: 30%;
+    margin: 0 0 10px 8px;
+    padding: 8px 8px 8px 8px;
+  }
+}
+/* 
+==========================================               ========================================== 
+========================================== MEDIA QUERIES ========================================== 
+==========================================               ========================================== 
+*/
+@media screen and (max-width: 800px) {
+  .cardInformacion {
+    width: 45%;
+  }
+  .institucionalDer,
+  .institucionalIzq {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .institucionalDer div,
+  .institucionalIzq div {
     width: 90%;
   }
-  .mapa {
-    width: 350px;
-    height: 450px;
+}
+/* 
+==========================================               ========================================== 
+========================================== MEDIA QUERIES ========================================== 
+==========================================               ========================================== 
+*/
+@media screen and (max-width: 550px) {
+  .cardAlumnos {
+    width: 45%;
   }
 }

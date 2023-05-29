@@ -1,0 +1,29 @@
+.institucionalDer,
+.institucionalIzq {
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.institucionalDer,
+.institucionalIzq {
+    margin: 8px 25px 8px 25px;
+}
+
+
+.institucionalDer div,
+.institucionalIzq div {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+
+.institucionalIzq {
+    flex-direction: row-reverse;
+}
+
+.institucionalDer img,
+.institucionalIzq img {
+    width: 350px;
+    height: 250px;
+}

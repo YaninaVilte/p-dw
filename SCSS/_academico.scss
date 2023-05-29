@@ -1,0 +1,131 @@
+.materias {
+    display: grid;
+    padding-top: 4rem;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: min-content min-content min-content min-content min-content min-content;
+    gap: 8px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "tituloTec tituloTec tituloTec tituloTec"
+        "testimonios primero segundo tercero"
+        "cuarto quinto sexto septimo"
+        "tituloBach tituloBach tituloBach tituloBach"
+        "primeroBach segundoBach terceroBach cuartoBach"
+        "quintoBach sextoBach testimoniosBach testimoniosBach";
+}
+
+.materias h2,
+.materias h1 {
+    text-align: center;
+}
+
+.testimonios,
+.testimoniosBach {
+    align-items: center;
+}
+
+.primero {
+    grid-area: primero;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.segundo {
+    grid-area: segundo;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.tercero {
+    grid-area: tercero;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.cuarto {
+    grid-area: cuarto;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.quinto {
+    grid-area: quinto;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.sexto {
+    grid-area: sexto;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.septimo {
+    grid-area: septimo;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.testimonios {
+    grid-area: testimonios;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.tituloBach {
+    grid-area: tituloBach;
+}
+
+.tituloTec {
+    grid-area: tituloTec;
+}
+
+.primeroBach {
+    grid-area: primeroBach;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.segundoBach {
+    grid-area: segundoBach;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.terceroBach {
+    grid-area: terceroBach;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.cuartoBach {
+    grid-area: cuartoBach;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.quintoBach {
+    grid-area: quintoBach;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.sextoBach {
+    grid-area: sextoBach;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.testimoniosBach {
+    grid-area: testimoniosBach;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+html,
+body,
+.materias {
+    height: 100%;
+    margin: auto;
+}
+
+.materias {
+    margin: 0rem 2rem 4rem 3rem;
+}
+
+.testimonios,
+.testimoniosBach {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.testimonios img,
+.testimoniosBach img {
+    width: 100%;
+}

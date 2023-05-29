@@ -1,0 +1,47 @@
+.principalPages {
+    position: relative;
+    display: inline-block;
+}
+
+.frenteColegioPages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+.tituloPages {
+    position: absolute;
+    justify-content: center;
+    color: aliceblue;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.principalPages button {
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 9px 13px;
+    border-radius: 15px;
+    border: 2px solid rgb(187, 188, 187);
+    box-shadow: 2px 2px 10px rgb(155, 155, 155);
+    color: rgb(75, 75, 75);
+    background-color: rgb(220, 220, 220);
+}
+
+.principalPages button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.linkInicio {
+    position: absolute;
+    justify-content: center;
+    color: rgb(130, 22, 22);
+    text-align: center;
+    top: 5%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
