@@ -219,6 +219,11 @@
         width: 80%;
     }
 
+    .institucionalDer img,
+    .institucionalIzq img {
+        width: 60%
+    }
+
 
 
 }
@@ -267,6 +272,7 @@
         font-size: 2.1rem;
     }
 
+
 }
 
 /* === MEDIA QUERIES === */
@@ -281,6 +287,11 @@
     .cardFormMap {
         flex-direction: column;
         width: 80%;
+    }
+
+    .institucionalDer img,
+    .institucionalIzq img {
+        width: 70%
     }
 
 }
@@ -451,6 +462,11 @@
         font-size: 2rem;
     }
 
+    .institucionalDer img,
+    .institucionalIzq img {
+        width: 70%
+    }
+
 }
 
 /* === MEDIA QUERIES === */
@@ -522,6 +538,11 @@
         width: 45%;
         margin: 0.5rem 0.5rem;
         padding: 0.7rem 0.7rem;
+    }
+
+    .institucionalDer img,
+    .institucionalIzq img {
+        width: 80%
     }
 
 }

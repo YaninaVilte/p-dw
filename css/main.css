@@ -656,6 +656,10 @@ h1 {
             flex-direction: column;
     width: 80%;
   }
+  .institucionalDer img,
+  .institucionalIzq img {
+    width: 60%;
+  }
 }
 /* === MEDIA QUERIES === */
 @media screen and (max-width: 757px) {
@@ -701,6 +705,10 @@ h1 {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 80%;
+  }
+  .institucionalDer img,
+  .institucionalIzq img {
+    width: 70%;
   }
 }
 /* === MEDIA QUERIES === */
@@ -827,6 +835,10 @@ h1 {
   h1 {
     font-size: 2rem;
   }
+  .institucionalDer img,
+  .institucionalIzq img {
+    width: 70%;
+  }
 }
 /* === MEDIA QUERIES === */
 @media screen and (max-width: 425px) {
@@ -882,5 +894,9 @@ h1 {
     width: 45%;
     margin: 0.5rem 0.5rem;
     padding: 0.7rem 0.7rem;
+  }
+  .institucionalDer img,
+  .institucionalIzq img {
+    width: 80%;
   }
 }
