@@ -1,27 +1,22 @@
-.cardContainer,
-.cardContenedorNoticias {
-    width: 100%;
+.cardContainer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 4rem;
-    padding-top: 6rem;
-}
-
-.cardContenedorNoticias {
-    padding-top: 1rem;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .card {
     width: 30%;
-    padding: 1rem 2rem;
+    padding: 1.5rem 1.5rem;
     margin: 1rem;
     background-color: rgb(196, 196, 196);
     border-radius: 15px;
+    background: F0EEED;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
-    background: #fff;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     transition: all 400ms ease-out;
     cursor: default;
@@ -32,11 +27,26 @@
     transform: translateY(-3%);
 }
 
+.card h3 {
+    text-align: center;
+}
+
 .card img {
     height: 40%;
 }
 
-.card img,
 .frenteColegioPages img {
     width: 100%;
+}
+
+.titulo {
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.subtitulo {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }

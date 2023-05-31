@@ -13,38 +13,56 @@ a {
   text-decoration: none;
 }
 
-.titulo,
-.titulo h2 {
+main {
+  padding-top: 8rem;
+  background: #EEEEEE;
+}
+
+h1,
+h2,
+h3,
+h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 4rem;
 }
 
-h1 {
-  font-size: 3.5rem;
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 
-h2 {
-  font-size: 3rem;
+ul li {
+  margin-left: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+h4 {
+  font-size: 1.6rem;
 }
 
 h3 {
   font-size: 2rem;
 }
 
-main {
-  padding-top: 8rem;
+h2 {
+  font-size: 2.3rem;
+}
+
+h1 {
+  font-size: 2.7rem;
 }
 
 /* === Variables */
 /* === Index */
-.cardContainer,
-.cardContenedorNoticias {
-  width: 100%;
+.cardContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,20 +71,19 @@ main {
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 4rem;
-  padding-top: 6rem;
-}
-
-.cardContenedorNoticias {
-  padding-top: 1rem;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .card {
   width: 30%;
-  padding: 1rem 2rem;
+  padding: 1.5rem 1.5rem;
   margin: 1rem;
   background-color: rgb(196, 196, 196);
   border-radius: 15px;
+  background: F0EEED;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -74,8 +91,6 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  overflow: hidden;
-  background: #fff;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 400ms ease-out;
@@ -90,30 +105,28 @@ main {
           transform: translateY(-3%);
 }
 
+.card h3 {
+  text-align: center;
+}
+
 .card img {
   height: 40%;
 }
 
-.card img,
 .frenteColegioPages img {
   width: 100%;
 }
 
-/* === buttonCards*/
-button {
-  font-size: 0.8rem;
-  font-weight: bold;
-  padding: 9px 13px;
-  border-radius: 15px;
-  border: 2px solid rgb(230, 88, 85);
-  -webkit-box-shadow: 2px 2px 10px rgb(227, 45, 42);
-          box-shadow: 2px 2px 10px rgb(227, 45, 42);
-  color: aliceblue;
-  background-color: rgb(244, 140, 138);
+.titulo {
+  margin-top: 3.5rem;
+  margin-bottom: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-button:hover {
-  background-color: rgb(185, 24, 22);
+.subtitulo {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* === comun a todas las páginas */
@@ -149,45 +162,20 @@ button:hover {
           transform: translate(-50%, -50%);
 }
 
-.principalPages button {
-  font-size: 0.8rem;
-  font-weight: bold;
-  padding: 9px 13px;
-  border-radius: 15px;
-  border: 2px solid rgb(187, 188, 187);
-  -webkit-box-shadow: 2px 2px 10px rgb(155, 155, 155);
-          box-shadow: 2px 2px 10px rgb(155, 155, 155);
-  color: rgb(75, 75, 75);
-  background-color: rgb(220, 220, 220);
-}
-
-.principalPages button:hover {
-  background-color: rgb(255, 255, 255);
-}
-
-.linkInicio {
-  position: absolute;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: rgb(130, 22, 22);
-  text-align: center;
-  top: 5%;
-  left: 90%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
 /* ==== Contacto */
 .cardFormMap {
   width: 45%;
-  padding: 1rem 1rem;
+  padding: 1.5rem 1.5rem;
   margin: 1rem;
   background-color: rgb(220, 181, 181);
   border-radius: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -206,19 +194,25 @@ button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 90%;
+  width: 100%;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .institucionalDer,
 .institucionalIzq {
-  margin: 8px 25px 8px 25px;
+  padding: 1.5rem;
 }
 
 .institucionalDer div,
 .institucionalIzq div {
-  width: 60%;
+  width: 100%;
   margin: auto;
-  text-align: left;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .institucionalIzq {
@@ -230,14 +224,18 @@ button:hover {
 
 .institucionalDer img,
 .institucionalIzq img {
-  width: 350px;
-  height: 250px;
+  width: 40%;
+}
+
+.institucionalDer p,
+.institucionalIzq p {
+  margin: 1rem 1rem;
 }
 
 /* ==== Alumnos y Docentes */
 .cardAlumnos {
   width: 30%;
-  padding: 1rem 2rem;
+  padding: 1.5rem 1.5rem;
   margin: 1rem;
   background-color: rgb(196, 196, 196);
   border-radius: 15px;
@@ -248,7 +246,6 @@ button:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  overflow: hidden;
   background: #fff;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
@@ -269,7 +266,6 @@ button:hover {
   color: white;
 }
 
-.cardContainer,
 .cardAlumnos img {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -279,24 +275,17 @@ button:hover {
 }
 
 /* ======= Información Útil alumnos y docentes======== */
-.informacion {
-  width: 100%;
+.cardInformacion {
+  width: 22%;
+  padding: 1.5rem 1.5rem;
+  margin: 1rem;
+  background: rgb(241, 90, 89);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(65%, rgb(241, 90, 89)), to(rgb(237, 43, 42)));
+  background: linear-gradient(0deg, rgb(241, 90, 89) 65%, rgb(237, 43, 42) 100%);
+  border-radius: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-bottom: 4rem;
-}
-
-.cardInformacion {
-  width: 22%;
-  margin: 1rem;
-  background-color: rgb(246, 217, 217);
-  border-radius: 15px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -307,21 +296,16 @@ button:hover {
   width: 100%;
   word-wrap: break-word;
 }
+.cardTexto p,
+.cardTexto h4 {
+  color: white;
+}
 
 .cardTexto h3 {
   text-align: center;
 }
 
 .cardTexto p {
-  text-align: center;
-}
-
-.cardTexto h2 {
-  text-align: center;
-}
-
-.cardTexto p {
-  text-align: justify;
   margin-bottom: 10px;
   padding: 5px;
 }
@@ -329,7 +313,11 @@ button:hover {
 /* ==== Academico ==== */
 .materias {
   display: grid;
-  padding-top: 4rem;
+  padding: 1.5rem 1.5rem;
+  padding-bottom: 3rem;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content -webkit-min-content;
   grid-template-rows: min-content min-content min-content min-content min-content min-content;
@@ -338,9 +326,15 @@ button:hover {
   grid-template-areas: "tituloTec tituloTec tituloTec tituloTec" "testimonios primero segundo tercero" "cuarto quinto sexto septimo" "tituloBach tituloBach tituloBach tituloBach" "primeroBach segundoBach terceroBach cuartoBach" "quintoBach sextoBach testimoniosBach testimoniosBach";
 }
 
-.materias h2,
-.materias h1 {
+.materias h3,
+.materias h2 {
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .testimonios,
@@ -348,100 +342,143 @@ button:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .primero {
   grid-area: primero;
   padding: 1rem 1rem 1rem 1rem;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .segundo {
   grid-area: segundo;
   padding: 1rem 1rem 1rem 1rem;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .tercero {
   grid-area: tercero;
   padding: 1rem 1rem 1rem 1rem;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .cuarto {
   grid-area: cuarto;
   padding: 1rem 1rem 1rem 1rem;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .quinto {
   grid-area: quinto;
   padding: 1rem 1rem 1rem 1rem;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .sexto {
   grid-area: sexto;
   padding: 1rem 1rem 1rem 1rem;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .septimo {
   grid-area: septimo;
   padding: 1rem 1rem 1rem 1rem;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .testimonios {
   grid-area: testimonios;
   padding: 1rem 1rem 1rem 1rem;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .tituloBach {
   grid-area: tituloBach;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .tituloTec {
   grid-area: tituloTec;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .primeroBach {
   grid-area: primeroBach;
   padding: 1rem 1rem 1rem 1rem;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .segundoBach {
   grid-area: segundoBach;
   padding: 1rem 1rem 1rem 1rem;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .terceroBach {
   grid-area: terceroBach;
   padding: 1rem 1rem 1rem 1rem;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .cuartoBach {
   grid-area: cuartoBach;
   padding: 1rem 1rem 1rem 1rem;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .quintoBach {
   grid-area: quintoBach;
   padding: 1rem 1rem 1rem 1rem;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .sextoBach {
   grid-area: sextoBach;
   padding: 1rem 1rem 1rem 1rem;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .testimoniosBach {
   grid-area: testimoniosBach;
   padding: 1rem 1rem 1rem 1rem;
-}
-
-html,
-body,
-.materias {
-  height: 100%;
-  margin: auto;
-}
-
-.materias {
-  margin: 2rem 2rem 2rem 2rem;
+  border-color: gray;
+  border-width: 1px;
+  border-style: dotted;
 }
 
 .testimonios,
@@ -460,50 +497,63 @@ body,
   width: 100%;
 }
 
-.tituloModalidades {
-  padding-right: 2rem;
-  padding-left: 2rem;
-}
-
 /* ==== Responsive ==== */
+/* === MEDIA QUERIES === */
+@media screen and (max-width: 1098px) {
+  .cardInformacion {
+    width: 23%;
+    margin: 0.5rem;
+  }
+}
 /* === MEDIA QUERIES === */
 @media screen and (max-width: 1064px) {
   .cardInformacion {
-    width: 20%;
-    margin: 0.5rem;
+    width: 23%;
   }
   .textoImagen {
     top: 75%;
+  }
+  .card {
+    width: 45%;
+  }
+  ul {
+    font-size: 1.1rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  h3 {
+    font-size: 1.7rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 2.4rem;
+  }
+}
+/* === MEDIA QUERIES === */
+@media screen and (max-width: 992px) {
+  .cardAlumnos {
+    width: 30%;
+    margin: 0.5rem 0.5rem;
+    padding: 1rem 1rem;
   }
 }
 /* === MEDIA QUERIES === */
 @media screen and (max-width: 960px) {
   .cardInformacion {
-    width: 20%;
+    width: 45%;
     margin: 0.5rem;
   }
   .textoImagen {
     top: 75%;
   }
-  .cardAlumnos {
-    width: 30%;
-    margin: 0 0 10px 8px;
-    padding: 8px 8px 8px 8px;
-  }
   .card {
     width: 45%;
-  }
-  h1 {
-    font-size: 2.5rem;
-  }
-  h2 {
-    font-size: 2rem;
-  }
-  h3 {
-    font-size: 1.75rem;
-  }
-  .cardAcademicoTec ul {
-    font-size: 0.9rem;
   }
   .materias {
     display: grid;
@@ -585,30 +635,14 @@ body,
   .materias {
     height: 100%;
   }
-  .materias h2 {
-    font-size: 1.3rem;
-  }
-  .materias h1 {
-    font-size: 1.5rem;
-  }
-  .materias ul {
-    font-size: 1rem;
-  }
-  .testimonios {
-    font-size: 1rem;
-  }
   .testimoniosBach {
     text-align: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    font-size: 1rem;
   }
   .testimonios img {
-    width: 70%;
-  }
-  .testimoniosBach img {
-    width: 60%;
+    width: 50%;
   }
 }
 /* === MEDIA QUERIES === */
@@ -628,6 +662,13 @@ body,
   .institucionalIzq div {
     width: 90%;
   }
+  .cardFormMap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+  }
 }
 /* === MEDIA QUERIES === */
 @media screen and (max-width: 757px) {
@@ -638,27 +679,32 @@ body,
     display: none;
   }
   .textoImagen {
-    font-size: 1.25rem;
     width: 80%;
+  }
+  .card {
+    width: 90%;
+  }
+  ul {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  h4 {
+    font-size: 1.3rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  h1 {
+    font-size: 2.1rem;
   }
 }
 /* === MEDIA QUERIES === */
 @media screen and (max-width: 640px) {
-  .card {
-    width: 40%;
-  }
-  h1 {
-    font-size: 2rem;
-  }
-  h3 {
-    font-size: 1.25rem;
-  }
-  .card img {
-    display: none;
-  }
-  p {
-    font-size: 1rem;
-  }
   .testimonios img {
     width: 70%;
   }
@@ -755,24 +801,11 @@ body,
   .materias {
     height: 100%;
   }
-  .materias h2 {
-    font-size: 1.3rem;
-  }
-  .materias h1 {
-    font-size: 1.5rem;
-  }
-  .materias ul {
-    font-size: 1rem;
-  }
-  .testimonios {
-    font-size: 1rem;
-  }
   .testimoniosBach {
     text-align: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    font-size: 1rem;
   }
   .testimonios img {
     width: 100%;
@@ -785,6 +818,27 @@ body,
   }
   .card {
     width: 80%;
+  }
+  .cardInformacion {
+    width: 90%;
+  }
+  ul {
+    font-size: 0.9rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  h1 {
+    font-size: 2rem;
   }
 }
 /* === MEDIA QUERIES === */
@@ -807,23 +861,9 @@ body,
   h1 {
     margin: 1rem;
   }
-  .titulo h1 {
-    font-size: 1.5rem;
-  }
-  .card {
-    width: 45%;
-    margin: 0 0 10px 8px;
-    padding: 8px 8px 8px 8px;
-  }
-  .card h2 {
-    font-size: 1rem;
-  }
   .cardContainer {
     margin-bottom: 1rem;
     padding-top: 1rem;
-  }
-  h1 {
-    font-size: 2rem;
   }
   .titulo {
     margin-left: auto;
@@ -838,19 +878,6 @@ body,
     margin: 0 0 10px 8px;
     padding: 8px 8px 8px 8px;
   }
-  .cardTexto h2 {
-    font-size: 1.5rem;
-  }
-  .cardTexto p {
-    font-size: 1rem;
-  }
-  .cardInformacion {
-    width: 45%;
-  }
-  .cardInformacion {
-    width: 40%;
-    margin: 0.5rem;
-  }
   .cardFormMap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -864,7 +891,9 @@ body,
   .card {
     width: 80%;
   }
-  h2 {
-    font-size: 1.5rem;
+  .cardAlumnos {
+    width: 45%;
+    margin: 0.5rem 0.5rem;
+    padding: 0.7rem 0.7rem;
   }
 }

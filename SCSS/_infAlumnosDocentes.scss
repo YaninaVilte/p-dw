@@ -1,22 +1,22 @@
-.informacion {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 4rem;
-}
-
 .cardInformacion {
     width: 22%;
+    padding: 1.5rem 1.5rem;
     margin: 1rem;
-    background-color: rgb(246, 217, 217);
+    background: rgb(241, 90, 89);
+    background: linear-gradient(0deg, rgba(241, 90, 89, 1) 65%, rgba(237, 43, 42, 1) 100%);
     border-radius: 15px;
+    display: flex;
     flex-direction: column;
 }
 
 .cardTexto {
     width: 100%;
     word-wrap: break-word;
+
+    p,
+    h4 {
+        color: white;
+    }
 }
 
 .cardTexto h3 {
@@ -24,15 +24,6 @@
 }
 
 .cardTexto p {
-    text-align: center;
-}
-
-.cardTexto h2 {
-    text-align: center;
-}
-
-.cardTexto p {
-    text-align: justify;
     margin-bottom: 10px;
     padding: 5px;
 }

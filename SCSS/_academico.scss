@@ -1,6 +1,10 @@
 .materias {
     display: grid;
-    padding-top: 4rem;
+    padding: 1.5rem 1.5rem;
+    padding-bottom: 3rem;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: min-content min-content min-content min-content min-content min-content;
     gap: 8px 0px;
@@ -14,109 +18,157 @@
         "quintoBach sextoBach testimoniosBach testimoniosBach";
 }
 
-.materias h2,
-.materias h1 {
+.materias h3,
+.materias h2 {
     text-align: center;
+    justify-content: center;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .testimonios,
 .testimoniosBach {
     align-items: center;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .primero {
     grid-area: primero;
     padding: 1rem 1rem 1rem 1rem;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .segundo {
     grid-area: segundo;
     padding: 1rem 1rem 1rem 1rem;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .tercero {
     grid-area: tercero;
     padding: 1rem 1rem 1rem 1rem;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .cuarto {
     grid-area: cuarto;
     padding: 1rem 1rem 1rem 1rem;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .quinto {
     grid-area: quinto;
     padding: 1rem 1rem 1rem 1rem;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .sexto {
     grid-area: sexto;
     padding: 1rem 1rem 1rem 1rem;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .septimo {
     grid-area: septimo;
     padding: 1rem 1rem 1rem 1rem;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .testimonios {
     grid-area: testimonios;
     padding: 1rem 1rem 1rem 1rem;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .tituloBach {
     grid-area: tituloBach;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .tituloTec {
     grid-area: tituloTec;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .primeroBach {
     grid-area: primeroBach;
     padding: 1rem 1rem 1rem 1rem;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .segundoBach {
     grid-area: segundoBach;
     padding: 1rem 1rem 1rem 1rem;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .terceroBach {
     grid-area: terceroBach;
     padding: 1rem 1rem 1rem 1rem;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .cuartoBach {
     grid-area: cuartoBach;
     padding: 1rem 1rem 1rem 1rem;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .quintoBach {
     grid-area: quintoBach;
     padding: 1rem 1rem 1rem 1rem;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .sextoBach {
     grid-area: sextoBach;
     padding: 1rem 1rem 1rem 1rem;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
 .testimoniosBach {
     grid-area: testimoniosBach;
     padding: 1rem 1rem 1rem 1rem;
+    border-color: gray;
+    border-width: 1px;
+    border-style: dotted;
 }
 
-html,
-body,
-.materias {
-    height: 100%;
-    margin: auto;
-}
-
-.materias {
-    margin: 2rem 2rem 2rem 2rem;
-}
 
 .testimonios,
 .testimoniosBach {
@@ -128,9 +180,4 @@ body,
 .testimonios img,
 .testimoniosBach img {
     width: 100%;
-}
-
-.tituloModalidades {
-    padding-right: 2rem;
-    padding-left: 2rem;
 }
