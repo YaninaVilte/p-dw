@@ -1,13 +1,10 @@
 .materias {
     display: grid;
-    padding: 1.5rem 1.5rem;
     padding-bottom: 3rem;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    background-color: #DDDDDD;
     grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
     grid-template-rows: min-content min-content min-content min-content min-content min-content;
-    gap: 8px 0px;
     grid-auto-flow: row;
     grid-template-areas:
         "tituloTec tituloTec tituloTec tituloTec"
@@ -21,152 +18,114 @@
 .materias h3,
 .materias h2 {
     text-align: center;
-    justify-content: center;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
 }
 
 .testimonios,
 .testimoniosBach {
     align-items: center;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    width: 100%;
 }
 
 .primero {
     grid-area: primero;
     padding: 1rem 1rem 1rem 1rem;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    background: #DDDDDD;
 }
 
 .segundo {
     grid-area: segundo;
     padding: 1rem 1rem 1rem 1rem;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    background: #DDDDDD;
 }
 
 .tercero {
     grid-area: tercero;
     padding: 1rem 1rem 1rem 1rem;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    background: #DDDDDD;
 }
 
 .cuarto {
     grid-area: cuarto;
     padding: 1rem 1rem 1rem 1rem;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    background: #DDDDDD;
 }
 
 .quinto {
     grid-area: quinto;
     padding: 1rem 1rem 1rem 1rem;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    background: #DDDDDD;
 }
 
 .sexto {
     grid-area: sexto;
     padding: 1rem 1rem 1rem 1rem;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    background: #DDDDDD;
 }
 
 .septimo {
     grid-area: septimo;
     padding: 1rem 1rem 1rem 1rem;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    background: #DDDDDD;
 }
 
 .testimonios {
     grid-area: testimonios;
     padding: 1rem 1rem 1rem 1rem;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    background: #DDDDDD;
 }
 
 .tituloBach {
     grid-area: tituloBach;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    background: #900D0D;
+    color: white;
+    align-items: center;
 }
 
 .tituloTec {
     grid-area: tituloTec;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    background: #900D0D;
+    color: white;
 }
 
 .primeroBach {
     grid-area: primeroBach;
     padding: 1rem 1rem 1rem 1rem;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    background: #DDDDDD;
 }
 
 .segundoBach {
     grid-area: segundoBach;
     padding: 1rem 1rem 1rem 1rem;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    background: #DDDDDD;
 }
 
 .terceroBach {
     grid-area: terceroBach;
     padding: 1rem 1rem 1rem 1rem;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    background: #DDDDDD;
 }
 
 .cuartoBach {
     grid-area: cuartoBach;
     padding: 1rem 1rem 1rem 1rem;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    background: #DDDDDD;
 }
 
 .quintoBach {
     grid-area: quintoBach;
     padding: 1rem 1rem 1rem 1rem;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    background: #DDDDDD;
 }
 
 .sextoBach {
     grid-area: sextoBach;
     padding: 1rem 1rem 1rem 1rem;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
+    background: #DDDDDD;
 }
 
 .testimoniosBach {
     grid-area: testimoniosBach;
     padding: 1rem 1rem 1rem 1rem;
-    border-color: gray;
-    border-width: 1px;
-    border-style: dotted;
 }
 
 
@@ -180,4 +139,13 @@
 .testimonios img,
 .testimoniosBach img {
     width: 100%;
+    border: 1px solid #DAA520;
+    box-shadow: 0px 1px 10px #DAA520;
+}
+
+.tituloModalidades h2 {
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
 }

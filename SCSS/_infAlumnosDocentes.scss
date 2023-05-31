@@ -17,13 +17,21 @@
     h4 {
         color: white;
     }
+
 }
 
-.cardTexto h3 {
+.cardTexto h4 {
     text-align: center;
 }
 
 .cardTexto p {
     margin-bottom: 10px;
     padding: 5px;
+}
+
+.informacionUtil {
+    background-color: black;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
