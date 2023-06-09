@@ -288,7 +288,8 @@ h1 {
   width: 22%;
   padding: 1.5rem 1.5rem;
   margin: 1rem;
-  background: rgb(241, 90, 89);
+  -webkit-box-shadow: rgba(252, 65, 65, 0.2) 0 15px 30px -5px;
+          box-shadow: rgba(252, 65, 65, 0.2) 0 15px 30px -5px;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(65%, rgb(241, 90, 89)), to(rgb(237, 43, 42)));
   background: linear-gradient(0deg, rgb(241, 90, 89) 65%, rgb(237, 43, 42) 100%);
   border-radius: 15px;
