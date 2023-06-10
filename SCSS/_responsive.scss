@@ -47,6 +47,9 @@
         font-size: 2.4rem;
     }
 
+    .tituloAnio {
+        margin-right: 6rem;
+    }
 }
 
 /* === MEDIA QUERIES === */
@@ -272,6 +275,9 @@
         font-size: 2.1rem;
     }
 
+    .tituloAnio {
+        margin-right: 6rem;
+    }
 
 }
 
@@ -292,6 +298,10 @@
     .institucionalDer img,
     .institucionalIzq img {
         width: 70%
+    }
+
+    .tituloAnio {
+        margin-right: 4rem;
     }
 
 }
@@ -419,6 +429,10 @@
 
     .testimonios img {
         width: 100%;
+    }
+
+    .tituloAnio {
+        margin-right: 5rem;
     }
 
 }

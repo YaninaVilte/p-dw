@@ -26,7 +26,7 @@
 
 .card:hover {
     box-shadow: 5px 5px 20px #DAA520;
-    transform: translateY(-3%);
+    transform: translateY(-1%);
 }
 
 .card h3 {
@@ -36,6 +36,11 @@
 .card img {
     width: 100%;
     justify-content: center;
+}
+
+.principalPages {
+    width: 100%;
+    padding-bottom: 2.5rem;
 }
 
 .frenteColegioPages img {
@@ -50,7 +55,7 @@
 .subtitulo {
     padding-left: 1rem;
     padding-right: 1rem;
-    background-color: #900D0D;
+    background-color: $rojo-titulos;
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: white;

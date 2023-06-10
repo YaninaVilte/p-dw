@@ -30,6 +30,10 @@ h4 {
           justify-content: center;
 }
 
+h2 {
+  font-weight: 550;
+}
+
 .tituloAnio {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -66,6 +70,12 @@ h2 {
 
 h1 {
   font-size: 2.7rem;
+}
+
+.frenteColegioPagesBlur {
+  -webkit-filter: blur(4px);
+          filter: blur(4px);
+  width: 100%;
 }
 
 /* === Variables */
@@ -113,8 +123,8 @@ h1 {
 .card:hover {
   -webkit-box-shadow: 5px 5px 20px #DAA520;
           box-shadow: 5px 5px 20px #DAA520;
-  -webkit-transform: translateY(-3%);
-          transform: translateY(-3%);
+  -webkit-transform: translateY(-1%);
+          transform: translateY(-1%);
 }
 
 .card h3 {
@@ -126,6 +136,11 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.principalPages {
+  width: 100%;
+  padding-bottom: 2.5rem;
 }
 
 .frenteColegioPages img {
@@ -270,9 +285,27 @@ h1 {
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   -webkit-transition: all 400ms ease-out;
   transition: all 400ms ease-out;
-  cursor: default;
+  cursor: pointer;
   position: relative;
   text-align: center;
+}
+
+.cardCarruselAlumnos {
+  width: 30%;
+  padding: 1.5rem 1.5rem;
+  margin: 1rem;
+  background-color: rgb(196, 196, 196);
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #fff;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
 }
 
 .textoImagen {
@@ -291,6 +324,15 @@ h1 {
   display: flex;
   border-radius: 5%;
   width: 100%;
+  -webkit-transition: -webkit-transform 350ms;
+  transition: -webkit-transform 350ms;
+  transition: transform 350ms;
+  transition: transform 350ms, -webkit-transform 350ms;
+}
+
+.cardAlumnos:hover img {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
 }
 
 /* ======= Información Útil alumnos y docentes======== */
@@ -342,6 +384,10 @@ h1 {
 }
 
 /* ==== Academico ==== */
+.tituloModalidades p {
+  padding: 1.5rem 1rem 1rem 1rem;
+}
+
 .materias {
   display: grid;
   padding-bottom: 3rem;
@@ -522,6 +568,9 @@ h1 {
   h1 {
     font-size: 2.4rem;
   }
+  .tituloAnio {
+    margin-right: 6rem;
+  }
 }
 /* === MEDIA QUERIES === */
 @media screen and (max-width: 992px) {
@@ -694,6 +743,9 @@ h1 {
   h1 {
     font-size: 2.1rem;
   }
+  .tituloAnio {
+    margin-right: 6rem;
+  }
 }
 /* === MEDIA QUERIES === */
 @media screen and (max-width: 640px) {
@@ -710,6 +762,9 @@ h1 {
   .institucionalDer img,
   .institucionalIzq img {
     width: 70%;
+  }
+  .tituloAnio {
+    margin-right: 4rem;
   }
 }
 /* === MEDIA QUERIES === */
@@ -805,6 +860,9 @@ h1 {
   }
   .testimonios img {
     width: 100%;
+  }
+  .tituloAnio {
+    margin-right: 5rem;
   }
 }
 /* === MEDIA QUERIES === */
