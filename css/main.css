@@ -30,6 +30,13 @@ h4 {
           justify-content: center;
 }
 
+.tituloAnio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 8rem;
+}
+
 ul {
   list-style: none;
   margin-left: 0;
@@ -40,7 +47,8 @@ ul li {
   margin-left: 1rem;
 }
 
-p {
+p,
+a {
   font-size: 1.1rem;
 }
 
@@ -212,6 +220,8 @@ h1 {
 .institucionalDer,
 .institucionalIzq {
   padding: 1.5rem;
+  margin-top: 1.5rem;
+  border: #900D0D solid 1.5px;
 }
 
 .institucionalDer div,
@@ -327,11 +337,15 @@ h1 {
   padding-bottom: 1rem;
 }
 
+.aLink {
+  color: black;
+}
+
 /* ==== Academico ==== */
 .materias {
   display: grid;
   padding-bottom: 3rem;
-  background-color: #DDDDDD;
+  background: #DDDDDD;
   grid-template-columns: 25% 25% 25% 25%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -358,49 +372,41 @@ h1 {
 .primero {
   grid-area: primero;
   padding: 1rem 1rem 1rem 1rem;
-  background: #DDDDDD;
 }
 
 .segundo {
   grid-area: segundo;
   padding: 1rem 1rem 1rem 1rem;
-  background: #DDDDDD;
 }
 
 .tercero {
   grid-area: tercero;
   padding: 1rem 1rem 1rem 1rem;
-  background: #DDDDDD;
 }
 
 .cuarto {
   grid-area: cuarto;
   padding: 1rem 1rem 1rem 1rem;
-  background: #DDDDDD;
 }
 
 .quinto {
   grid-area: quinto;
   padding: 1rem 1rem 1rem 1rem;
-  background: #DDDDDD;
 }
 
 .sexto {
   grid-area: sexto;
   padding: 1rem 1rem 1rem 1rem;
-  background: #DDDDDD;
 }
 
 .septimo {
   grid-area: septimo;
   padding: 1rem 1rem 1rem 1rem;
-  background: #DDDDDD;
 }
 
 .testimonios {
   grid-area: testimonios;
   padding: 1rem 1rem 1rem 1rem;
-  background: #DDDDDD;
 }
 
 .tituloBach {
@@ -421,37 +427,31 @@ h1 {
 .primeroBach {
   grid-area: primeroBach;
   padding: 1rem 1rem 1rem 1rem;
-  background: #DDDDDD;
 }
 
 .segundoBach {
   grid-area: segundoBach;
   padding: 1rem 1rem 1rem 1rem;
-  background: #DDDDDD;
 }
 
 .terceroBach {
   grid-area: terceroBach;
   padding: 1rem 1rem 1rem 1rem;
-  background: #DDDDDD;
 }
 
 .cuartoBach {
   grid-area: cuartoBach;
   padding: 1rem 1rem 1rem 1rem;
-  background: #DDDDDD;
 }
 
 .quintoBach {
   grid-area: quintoBach;
   padding: 1rem 1rem 1rem 1rem;
-  background: #DDDDDD;
 }
 
 .sextoBach {
   grid-area: sextoBach;
   padding: 1rem 1rem 1rem 1rem;
-  background: #DDDDDD;
 }
 
 .testimoniosBach {
@@ -472,7 +472,7 @@ h1 {
 
 .testimonios img,
 .testimoniosBach img {
-  width: 100%;
+  width: 90%;
   border: 1px solid #DAA520;
   -webkit-box-shadow: 0px 1px 10px #DAA520;
           box-shadow: 0px 1px 10px #DAA520;

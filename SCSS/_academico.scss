@@ -1,7 +1,7 @@
 .materias {
     display: grid;
     padding-bottom: 3rem;
-    background-color: #DDDDDD;
+    background: #DDDDDD;
     grid-template-columns: 25% 25% 25% 25%;
     justify-content: center;
     grid-template-rows: min-content min-content min-content min-content min-content min-content;
@@ -29,49 +29,41 @@
 .primero {
     grid-area: primero;
     padding: 1rem 1rem 1rem 1rem;
-    background: #DDDDDD;
 }
 
 .segundo {
     grid-area: segundo;
     padding: 1rem 1rem 1rem 1rem;
-    background: #DDDDDD;
 }
 
 .tercero {
     grid-area: tercero;
     padding: 1rem 1rem 1rem 1rem;
-    background: #DDDDDD;
 }
 
 .cuarto {
     grid-area: cuarto;
     padding: 1rem 1rem 1rem 1rem;
-    background: #DDDDDD;
 }
 
 .quinto {
     grid-area: quinto;
     padding: 1rem 1rem 1rem 1rem;
-    background: #DDDDDD;
 }
 
 .sexto {
     grid-area: sexto;
     padding: 1rem 1rem 1rem 1rem;
-    background: #DDDDDD;
 }
 
 .septimo {
     grid-area: septimo;
     padding: 1rem 1rem 1rem 1rem;
-    background: #DDDDDD;
 }
 
 .testimonios {
     grid-area: testimonios;
     padding: 1rem 1rem 1rem 1rem;
-    background: #DDDDDD;
 }
 
 .tituloBach {
@@ -90,37 +82,31 @@
 .primeroBach {
     grid-area: primeroBach;
     padding: 1rem 1rem 1rem 1rem;
-    background: #DDDDDD;
 }
 
 .segundoBach {
     grid-area: segundoBach;
     padding: 1rem 1rem 1rem 1rem;
-    background: #DDDDDD;
 }
 
 .terceroBach {
     grid-area: terceroBach;
     padding: 1rem 1rem 1rem 1rem;
-    background: #DDDDDD;
 }
 
 .cuartoBach {
     grid-area: cuartoBach;
     padding: 1rem 1rem 1rem 1rem;
-    background: #DDDDDD;
 }
 
 .quintoBach {
     grid-area: quintoBach;
     padding: 1rem 1rem 1rem 1rem;
-    background: #DDDDDD;
 }
 
 .sextoBach {
     grid-area: sextoBach;
     padding: 1rem 1rem 1rem 1rem;
-    background: #DDDDDD;
 }
 
 .testimoniosBach {
@@ -138,7 +124,7 @@
 
 .testimonios img,
 .testimoniosBach img {
-    width: 100%;
+    width: 90%;
     border: 1px solid #DAA520;
     box-shadow: 0px 1px 10px #DAA520;
 }

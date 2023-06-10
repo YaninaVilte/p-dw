@@ -24,6 +24,11 @@ h4 {
     justify-content: center;
 }
 
+.tituloAnio {
+    display: flex;
+    margin-right: 8rem;
+}
+
 ul {
     list-style: none;
     margin-left: 0;
@@ -34,7 +39,8 @@ ul li {
     margin-left: 1rem;
 }
 
-p {
+p,
+a {
     font-size: 1.1rem;
 }
 
