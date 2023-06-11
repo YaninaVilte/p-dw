@@ -71,6 +71,24 @@ h1 {
   width: 100%;
 }
 
+.frenteColegioPagesBlur img {
+  width: 100%;
+}
+
+.tituloPage404 {
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: aliceblue;
+  text-align: center;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+}
+
 /* === Variables */
 /* === Index */
 .cardContainer {
@@ -681,6 +699,9 @@ h1 {
   .testimonios img {
     width: 50%;
   }
+  .tituloPage404 {
+    top: 15%;
+  }
 }
 /* === MEDIA QUERIES === */
 @media screen and (max-width: 800px) {
@@ -772,6 +793,9 @@ h1 {
   }
   .tituloAnio {
     margin-right: 4rem;
+  }
+  .tituloPage404 {
+    top: 13%;
   }
 }
 /* === MEDIA QUERIES === */
@@ -873,6 +897,9 @@ h1 {
   }
   .tituloAnio {
     margin-right: 5rem;
+  }
+  .tituloPage404 {
+    top: 11%;
   }
 }
 /* === MEDIA QUERIES === */
@@ -977,5 +1004,8 @@ h1 {
   .institucionalDer img,
   .institucionalIzq img {
     width: 80%;
+  }
+  .tituloPage404 {
+    top: 5%;
   }
 }

@@ -211,6 +211,9 @@
         width: 50%;
     }
 
+    .tituloPage404 {
+        top: 15%;
+    }
 }
 
 /* === MEDIA QUERIES === */
@@ -322,6 +325,10 @@
 
     .tituloAnio {
         margin-right: 4rem;
+    }
+
+    .tituloPage404 {
+        top: 13%;
     }
 
 }
@@ -459,6 +466,9 @@
         margin-right: 5rem;
     }
 
+    .tituloPage404 {
+        top: 11%;
+    }
 }
 
 /* === MEDIA QUERIES === */
@@ -591,4 +601,7 @@
         width: 80%
     }
 
+    .tituloPage404 {
+        top: 5%;
+    }
 }

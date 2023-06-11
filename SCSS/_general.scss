@@ -63,3 +63,18 @@ h1 {
     filter: blur(4px);
     width: 100%;
 }
+
+.frenteColegioPagesBlur img {
+    width: 100%;
+}
+
+.tituloPage404 {
+    position: absolute;
+    justify-content: center;
+    color: aliceblue;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
