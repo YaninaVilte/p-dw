@@ -1,6 +1,8 @@
 /* === MEDIA QUERIES === */
 
 @media screen and (max-width: 1098px) {
+
+    /* === Cards de la sección información útil (Alumnos y Docentes) === */
     .cardInformacion {
         width: 23%;
         margin: 0.5rem;
@@ -11,18 +13,23 @@
 /* === MEDIA QUERIES === */
 
 @media screen and (max-width: 1064px) {
+
+    /* === Cards de la sección información útil (Alumnos y Docentes) === */
     .cardInformacion {
         width: 23%;
     }
 
+    /* === Título de las cards de la sección alumnos === */
     .textoImagen {
         top: 75%;
     }
 
+    /* === Cards General === */
     .card {
         width: 45%;
     }
 
+    /* === General === */
     ul {
         font-size: 1.1rem;
     }
@@ -47,6 +54,7 @@
         font-size: 2.4rem;
     }
 
+    /* === Título de los anios === */
     .tituloAnio {
         margin-right: 6rem;
     }
@@ -56,7 +64,9 @@
 
 @media screen and (max-width: 992px) {
 
-    .cardAlumnos {
+    /* === Cards de la sección Alumnos y Docentes === */
+    .cardAlumnos,
+    .cardCarruselAlumnos {
         width: 30%;
         margin: 0.5rem 0.5rem;
         padding: 1rem 1rem;
@@ -67,21 +77,25 @@
 /* === MEDIA QUERIES === */
 
 @media screen and (max-width: 960px) {
+
+    /* === Cards de la sección información útil (Alumnos y Docentes) === */
     .cardInformacion {
         width: 45%;
         margin: 0.5rem;
     }
 
+    /* === Título de las cards de la sección alumnos === */
     .textoImagen {
         top: 75%;
     }
 
+    /* === Cards General === */
     .card {
         width: 45%;
     }
 
 
-
+    /* === Grid de Academico === */
     .materias {
         display: grid;
         grid-template-columns: 33% 33% 34%;
@@ -202,10 +216,13 @@
 /* === MEDIA QUERIES === */
 
 @media screen and (max-width: 800px) {
+
+    /* === Cards de la sección información útil (Alumnos y Docentes) === */
     .cardInformacion {
         width: 45%;
     }
 
+    /* === Cards de los actores de la institución === */
     .institucionalDer,
     .institucionalIzq {
         flex-direction: column;
@@ -217,17 +234,16 @@
         width: 90%;
     }
 
-    .cardFormMap {
-        flex-direction: column;
-        width: 80%;
-    }
-
     .institucionalDer img,
     .institucionalIzq img {
         width: 60%
     }
 
-
+    /* === Formulario de contacto y mapa === */
+    .cardFormMap {
+        flex-direction: column;
+        width: 80%;
+    }
 
 }
 
@@ -243,10 +259,12 @@
         display: none;
     }
 
+    /* === Título de las cards de la sección alumnos === */
     .textoImagen {
         width: 80%;
     }
 
+    /* === Cards General === */
     .card {
         width: 90%;
     }
@@ -290,11 +308,13 @@
         width: 70%;
     }
 
+    /* === Formulario de contacto y mapa === */
     .cardFormMap {
         flex-direction: column;
         width: 80%;
     }
 
+    /* === Cards de los actores de la institución === */
     .institucionalDer img,
     .institucionalIzq img {
         width: 70%
@@ -309,10 +329,14 @@
 /* === MEDIA QUERIES === */
 
 @media screen and (max-width: 550px) {
-    .cardAlumnos {
+
+    /* === Cards de la sección Alumnos y Docentes === */
+    .cardAlumnos,
+    .cardCarruselAlumnos {
         width: 45%;
     }
 
+    /* === Grid de Academico === */
     .materias {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -444,10 +468,12 @@
         text-align: center;
     }
 
+    /* === Cards General === */
     .card {
         width: 80%;
     }
 
+    /* === Cards de la sección información útil (Alumnos y Docentes) === */
     .cardInformacion {
         width: 90%;
     }
@@ -476,6 +502,7 @@
         font-size: 2rem;
     }
 
+    /* === Cards de los actores de la institución === */
     .institucionalDer img,
     .institucionalIzq img {
         width: 70%
@@ -527,13 +554,15 @@
         display: none;
     }
 
-    .cardAlumnos {
+    /* === Cards de la sección Alumnos y Docentes === */
+    .cardAlumnos,
+    .cardCarruselAlumnos {
         width: 35%;
         margin: 0 0 10px 8px;
         padding: 8px 8px 8px 8px;
     }
 
-
+    /* === Formulario de contacto y mapa === */
     .cardFormMap {
         flex-direction: column;
         width: 90%;
@@ -543,17 +572,20 @@
         text-align: center;
     }
 
+    /* === Cards General === */
     .card {
         width: 80%;
     }
 
-
-    .cardAlumnos {
+    /* === Cards de la sección Alumnos y Docentes === */
+    .cardAlumnos,
+    .cardCarruselAlumnos {
         width: 45%;
         margin: 0.5rem 0.5rem;
         padding: 0.7rem 0.7rem;
     }
 
+    /* === Cards de los actores de la institución === */
     .institucionalDer img,
     .institucionalIzq img {
         width: 80%

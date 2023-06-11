@@ -2,7 +2,7 @@
     width: 30%;
     padding: 1.5rem 1.5rem;
     margin: 1rem;
-    background-color: rgb(196, 196, 196);
+    background-color: $fondo-blanco;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -12,6 +12,13 @@
     cursor: pointer;
     position: relative;
     text-align: center;
+
+    img {
+        display: flex;
+        border-radius: 5%;
+        width: 100%;
+        transition: transform 350ms;
+    }
 }
 
 
@@ -19,7 +26,7 @@
     width: 30%;
     padding: 1.5rem 1.5rem;
     margin: 1rem;
-    background-color: rgb(196, 196, 196);
+    background-color: $fondo-blanco;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -38,12 +45,6 @@
     color: white;
 }
 
-.cardAlumnos img {
-    display: flex;
-    border-radius: 5%;
-    width: 100%;
-    transition: transform 350ms;
-}
 
 .cardAlumnos:hover img {
     transform: scale(1.06);

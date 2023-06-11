@@ -34,13 +34,6 @@ h2 {
   font-weight: 550;
 }
 
-.tituloAnio {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-right: 8rem;
-}
-
 ul {
   list-style: none;
   margin-left: 0;
@@ -230,15 +223,14 @@ h1 {
   border-color: gray;
   border-width: 1px;
   border-style: dotted;
-}
-
-.institucionalDer,
-.institucionalIzq {
   padding: 1.5rem;
   margin-top: 1.5rem;
   border: #900D0D solid 1.5px;
 }
-
+.institucionalDer img,
+.institucionalIzq img {
+  width: 40%;
+}
 .institucionalDer div,
 .institucionalIzq div {
   width: 100%;
@@ -248,22 +240,16 @@ h1 {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.institucionalDer div p,
+.institucionalIzq div p {
+  margin: 1rem 1rem;
+}
 
 .institucionalIzq {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-}
-
-.institucionalDer img,
-.institucionalIzq img {
-  width: 40%;
-}
-
-.institucionalDer p,
-.institucionalIzq p {
-  margin: 1rem 1rem;
 }
 
 /* ==== Alumnos y Docentes */
@@ -288,6 +274,17 @@ h1 {
   cursor: pointer;
   position: relative;
   text-align: center;
+}
+.cardAlumnos img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5%;
+  width: 100%;
+  -webkit-transition: -webkit-transform 350ms;
+  transition: -webkit-transform 350ms;
+  transition: transform 350ms;
+  transition: transform 350ms, -webkit-transform 350ms;
 }
 
 .cardCarruselAlumnos {
@@ -316,18 +313,6 @@ h1 {
           transform: translate(-50%, -50%);
   text-shadow: 1px 1px 2px black, 0 0 1em rgb(212, 29, 29), 0 0 0.2em rgb(255, 17, 17);
   color: white;
-}
-
-.cardAlumnos img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border-radius: 5%;
-  width: 100%;
-  -webkit-transition: -webkit-transform 350ms;
-  transition: -webkit-transform 350ms;
-  transition: transform 350ms;
-  transition: transform 350ms, -webkit-transform 350ms;
 }
 
 .cardAlumnos:hover img {
@@ -361,12 +346,8 @@ h1 {
 .cardTexto p,
 .cardTexto h4 {
   color: white;
-}
-
-.cardTexto h4 {
   text-align: center;
 }
-
 .cardTexto p {
   margin-bottom: 10px;
   padding: 5px;
@@ -531,9 +512,17 @@ h1 {
   color: white;
 }
 
+.tituloAnio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 8rem;
+}
+
 /* ==== Responsive ==== */
 /* === MEDIA QUERIES === */
 @media screen and (max-width: 1098px) {
+  /* === Cards de la sección información útil (Alumnos y Docentes) === */
   .cardInformacion {
     width: 23%;
     margin: 0.5rem;
@@ -541,15 +530,19 @@ h1 {
 }
 /* === MEDIA QUERIES === */
 @media screen and (max-width: 1064px) {
+  /* === Cards de la sección información útil (Alumnos y Docentes) === */
   .cardInformacion {
     width: 23%;
   }
+  /* === Título de las cards de la sección alumnos === */
   .textoImagen {
     top: 75%;
   }
+  /* === Cards General === */
   .card {
     width: 45%;
   }
+  /* === General === */
   ul {
     font-size: 1.1rem;
   }
@@ -568,13 +561,16 @@ h1 {
   h1 {
     font-size: 2.4rem;
   }
+  /* === Título de los anios === */
   .tituloAnio {
     margin-right: 6rem;
   }
 }
 /* === MEDIA QUERIES === */
 @media screen and (max-width: 992px) {
-  .cardAlumnos {
+  /* === Cards de la sección Alumnos y Docentes === */
+  .cardAlumnos,
+  .cardCarruselAlumnos {
     width: 30%;
     margin: 0.5rem 0.5rem;
     padding: 1rem 1rem;
@@ -582,16 +578,20 @@ h1 {
 }
 /* === MEDIA QUERIES === */
 @media screen and (max-width: 960px) {
+  /* === Cards de la sección información útil (Alumnos y Docentes) === */
   .cardInformacion {
     width: 45%;
     margin: 0.5rem;
   }
+  /* === Título de las cards de la sección alumnos === */
   .textoImagen {
     top: 75%;
   }
+  /* === Cards General === */
   .card {
     width: 45%;
   }
+  /* === Grid de Academico === */
   .materias {
     display: grid;
     grid-template-columns: 33% 33% 34%;
@@ -684,9 +684,11 @@ h1 {
 }
 /* === MEDIA QUERIES === */
 @media screen and (max-width: 800px) {
+  /* === Cards de la sección información útil (Alumnos y Docentes) === */
   .cardInformacion {
     width: 45%;
   }
+  /* === Cards de los actores de la institución === */
   .institucionalDer,
   .institucionalIzq {
     -webkit-box-orient: vertical;
@@ -699,16 +701,17 @@ h1 {
   .institucionalIzq div {
     width: 90%;
   }
+  .institucionalDer img,
+  .institucionalIzq img {
+    width: 60%;
+  }
+  /* === Formulario de contacto y mapa === */
   .cardFormMap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     width: 80%;
-  }
-  .institucionalDer img,
-  .institucionalIzq img {
-    width: 60%;
   }
 }
 /* === MEDIA QUERIES === */
@@ -719,9 +722,11 @@ h1 {
   .testimoniosBach img {
     display: none;
   }
+  /* === Título de las cards de la sección alumnos === */
   .textoImagen {
     width: 80%;
   }
+  /* === Cards General === */
   .card {
     width: 90%;
   }
@@ -752,6 +757,7 @@ h1 {
   .testimonios img {
     width: 70%;
   }
+  /* === Formulario de contacto y mapa === */
   .cardFormMap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -759,6 +765,7 @@ h1 {
             flex-direction: column;
     width: 80%;
   }
+  /* === Cards de los actores de la institución === */
   .institucionalDer img,
   .institucionalIzq img {
     width: 70%;
@@ -769,9 +776,12 @@ h1 {
 }
 /* === MEDIA QUERIES === */
 @media screen and (max-width: 550px) {
-  .cardAlumnos {
+  /* === Cards de la sección Alumnos y Docentes === */
+  .cardAlumnos,
+  .cardCarruselAlumnos {
     width: 45%;
   }
+  /* === Grid de Academico === */
   .materias {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -870,9 +880,11 @@ h1 {
   .titulo {
     text-align: center;
   }
+  /* === Cards General === */
   .card {
     width: 80%;
   }
+  /* === Cards de la sección información útil (Alumnos y Docentes) === */
   .cardInformacion {
     width: 90%;
   }
@@ -894,6 +906,7 @@ h1 {
   h1 {
     font-size: 2rem;
   }
+  /* === Cards de los actores de la institución === */
   .institucionalDer img,
   .institucionalIzq img {
     width: 70%;
@@ -931,11 +944,14 @@ h1 {
   .linkInicio {
     display: none;
   }
-  .cardAlumnos {
+  /* === Cards de la sección Alumnos y Docentes === */
+  .cardAlumnos,
+  .cardCarruselAlumnos {
     width: 35%;
     margin: 0 0 10px 8px;
     padding: 8px 8px 8px 8px;
   }
+  /* === Formulario de contacto y mapa === */
   .cardFormMap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -946,14 +962,18 @@ h1 {
   .titulo {
     text-align: center;
   }
+  /* === Cards General === */
   .card {
     width: 80%;
   }
-  .cardAlumnos {
+  /* === Cards de la sección Alumnos y Docentes === */
+  .cardAlumnos,
+  .cardCarruselAlumnos {
     width: 45%;
     margin: 0.5rem 0.5rem;
     padding: 0.7rem 0.7rem;
   }
+  /* === Cards de los actores de la institución === */
   .institucionalDer img,
   .institucionalIzq img {
     width: 80%;

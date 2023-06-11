@@ -5,7 +5,7 @@
 .materias {
     display: grid;
     padding-bottom: 3rem;
-    background: #DDDDDD;
+    background: $fondo-gris;
     grid-template-columns: 25% 25% 25% 25%;
     justify-content: center;
     grid-template-rows: min-content min-content min-content min-content min-content min-content;
@@ -19,9 +19,12 @@
         "quintoBach sextoBach testimoniosBach testimoniosBach";
 }
 
-.materias h3,
-.materias h2 {
-    text-align: center;
+.materias {
+
+    h3,
+    h2 {
+        text-align: center;
+    }
 }
 
 .testimonios,
@@ -138,4 +141,9 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: white;
+}
+
+.tituloAnio {
+    display: flex;
+    margin-right: 8rem;
 }
